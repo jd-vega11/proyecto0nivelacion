@@ -1,7 +1,7 @@
 # Proyecto 0 API
 #### Aplicación de eventos
 
-Aplicación para soportar el manejo de eventos requerida por la empresa ABC. Un evento está compuesto de un nombre, una categoría (las cuatro posibles categorías son: Conferencia, Seminario, Congreso o Curso), un lugar, una dirección, una fecha de inicio y una fecha de fin, y si el evento es presencial o virtual (tipo).
+Aplicación para soportar el manejo de eventos requerido por la empresa ABC. Un evento está compuesto de un nombre, una categoría (las cuatro posibles categorías son: Conferencia, Seminario, Congreso o Curso), un lugar, una dirección, una fecha de inicio y una fecha de fin, y si el evento es presencial o virtual (tipo).
 
 ## Descripción
 
@@ -61,11 +61,13 @@ La autenticación se realiza a través de tokens que se expiden a nombre de los 
 curl --location --request GET 'http://127.0.0.1:8080/api/events' \
 --header 'Authorization: Token 00f7ca5ff75531dab094626d5f43bde1a6fd9d3f'
 
+```
+
 ### Particularidades Postman
 
 Es necesario agregar el header directamente con key = Authorization y value = Token <token generado>, no funciona usando la opción BearerToken desde la pestaña de Authorization.
 
-```
+
 ## Peticiones
 
 Para las peticiones que incluyen envío de datos, es necesario que estén en formato JSON en el cuerpo de la petición (no se aceptan cuerpos con form-data). Por ejemplo, para crear un evento:
