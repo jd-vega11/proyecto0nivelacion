@@ -65,7 +65,7 @@ curl --location --request GET 'http://127.0.0.1:8080/api/events' \
 
 ### Particularidades Postman
 
-Es necesario agregar el header directamente con key = Authorization y value = Token <token generado>, no funciona usando la opción BearerToken desde la pestaña de Authorization.
+Es necesario agregar el header directamente con `key = Authorization y value = Token <token generado>`, no funciona usando la opción BearerToken desde la pestaña de Authorization.
 
 
 ## Peticiones
