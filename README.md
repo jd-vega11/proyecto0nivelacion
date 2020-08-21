@@ -85,6 +85,9 @@ curl --location --request POST 'http://127.0.0.1:8080/api/events' \
     "thumbnail": "Banner del evento, seleccione un archivo PNG o JPG"    
 }'
 ```
+## Despliegue
+
+El despliegue de la solución se realizó en la máquina virtual correspondiente con ip 172.24.98.186. El back-end se encuentra en el puerto 8081 y el front-end se encuentra en el puerto 8080. Es necesario contar con la configuración de proxy tanto en el navegador como en Postman (o similares) para poder acceder.
 
 ## Desarrollador
 
