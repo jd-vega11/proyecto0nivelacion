@@ -10,10 +10,10 @@ En este repositorio se encuentra el API rest que soporta las operaciones básica
 ## Tabla de contenido
 
 - [Pre-requisitos](#pre-requisitos)
-- [Instalación](#instalación)
-- [Procedimiento](#procedimiento)
+- [Procedimiento](#procedimiento-backend)
 - [Autenticación](#autenticación)
 - [Peticiones](#peticiones)
+- [Despliegue](#despliegue)
 - [License](#license)
 
 ---
@@ -26,7 +26,7 @@ Para poder ejecutar este proyecto de forma local es necesario contar con lo sigu
 - Postgres DB v.10 o superior
 - Virtualenv (puede instalarlo con `pip install virtualenv`)
 
-## Procedimiento backend
+## Procedimiento-backend
 
 - Clonar el repositorio
 - Ingresar al folder del repositorio `cd proyecto0nivelacion`
