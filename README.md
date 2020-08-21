@@ -1,4 +1,4 @@
-# Proyecto 0 API
+# Proyecto 0
 #### Aplicación de eventos
 
 Aplicación para soportar el manejo de eventos requerido por la empresa ABC. Un evento está compuesto de un nombre, una categoría (las cuatro posibles categorías son: Conferencia, Seminario, Congreso o Curso), un lugar, una dirección, una fecha de inicio y una fecha de fin, y si el evento es presencial o virtual (tipo).
